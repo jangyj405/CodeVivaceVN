@@ -18,11 +18,21 @@ public class ScreenFader : MonoBehaviour
         Tweener tTween = fdImage.DOFade(0f, _time);
         tTween.OnComplete(() => { fdImage.gameObject.SetActive(false); });
     }
-    public void FadeOut(float _time)
+    public void FadeOut(float _time, System.Action _callback = null)
     {
         fdImage.gameObject.SetActive(true);
         Tweener tTween = fdImage.DOFade(1f, _time);
-        tTween.OnComplete(() => { fdImage.gameObject.SetActive(false); });
+        tTween.OnComplete(() =>
+        {
+            if (_callback != null)
+            {
+                _callback();
+            }
+            else
+            {
+                return;
+            }
+        });
     }
     public void BlackOutScreen()
     {
@@ -38,6 +48,4 @@ public class ScreenFader : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
-
- 
 }
