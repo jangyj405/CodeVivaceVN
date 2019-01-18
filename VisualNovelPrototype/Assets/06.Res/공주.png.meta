@@ -3,8 +3,9 @@ guid: 6a86efb4f25cc394da04504cd11051cb
 TextureImporter:
   fileIDToRecycleName:
     21300000: "\uACF5\uC8FC_1"
+    21300002: "\uACF5\uC8FC_0"
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -22,6 +23,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,7 +35,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -105,21 +108,21 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uACF5\uC8FC_1"
+      name: "\uACF5\uC8FC_0"
       rect:
         serializedVersion: 2
-        x: 373
-        y: 1209
-        width: 293
-        height: 356
+        x: 38
+        y: 23
+        width: 943
+        height: 1545
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a218ed19c710fc489cd302852dfc66a
+      spriteID: 3576b2f97d67a1b4b9f115e204e543ad
       vertices: []
       indices: 
       edges: []
@@ -133,6 +136,8 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
