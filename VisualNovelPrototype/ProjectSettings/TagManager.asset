@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3644630911
+    locked: 0
+  - name: EftBack
+    uniqueID: 2609578957
+    locked: 0
+  - name: Characters
+    uniqueID: 2185198923
+    locked: 0
+  - name: EftFront
+    uniqueID: 1722358783
+    locked: 0
+  - name: EftEnv
+    uniqueID: 887996187
+    locked: 0
+  - name: MainUI
+    uniqueID: 3938819353
+    locked: 0
+  - name: Fader
+    uniqueID: 509448909
+    locked: 0
+  - name: OptionalUI
+    uniqueID: 3599076115
+    locked: 0
